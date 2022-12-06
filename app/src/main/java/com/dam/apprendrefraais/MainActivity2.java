@@ -45,10 +45,10 @@ public class MainActivity2 extends AppCompatActivity {
 
             }
 
-            if(tag.equals(tagAttendu)){
-                s=s+1; // ou s++
-                Log.i(TAG, "myRandom: " + s);
-            }
+//            if(tag.equals(tagAttendu)){
+//                s=s+1; // ou s++
+//                Log.i(TAG, "myRandom: " + s);
+//            }
         }
     }
 
@@ -56,7 +56,7 @@ public class MainActivity2 extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_main2);
         myRandom();
     }
 
